@@ -18,4 +18,4 @@ LABEL description="Flink with connector-jdbc"
 
 ENV TZ=CST-8
 
-COPY flink-connector-jdbc_${SCALA_VERSION}-${VERSION}.jar /opt/flink/lib
+COPY flink-connector-jdbc_${SCALA_VERSION}-${VERSION}.jar ${FLINK_HOME}/lib
